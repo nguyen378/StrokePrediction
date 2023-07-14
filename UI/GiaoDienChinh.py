@@ -10,10 +10,10 @@ import tensorflow as tf
 
 class ConnectDB:
     def __init__(self):
-        server = 'NghiaKun'
+        server = 'LAPTOP-BGGEL34O'
         database = 'StrokePrediction'
         username = 'sa'
-        password = '123'
+        password = '123456'
         global conn_str
         conn_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
