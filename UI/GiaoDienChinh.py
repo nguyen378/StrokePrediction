@@ -306,7 +306,7 @@ class GiaoDien:
         print(data)
         input_df = pd.DataFrame(data=data)
 
-        model = joblib.load('StrokePrediction\Model\svm_model.pkl')
+        model = joblib.load('Model\svm_model_1.pkl')
         dudoan = model.predict(input_df)
 
         print(dudoan)
